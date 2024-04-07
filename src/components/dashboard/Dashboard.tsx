@@ -1,7 +1,7 @@
 // Dashboard.tsx
 import React from "react";
-import Sidebar from "@/components/sidebar/Sidebar";
-import Header from "@/components/header/Header";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import Header from "@/components/Header/Header";
 
 export default function Dashboard({ children }: { children: React.ReactNode }) {
   return (
