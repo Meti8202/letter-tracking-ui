@@ -8,6 +8,7 @@ import {
   HashIcon,
 } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import LetterList from "./letterlist/page";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
             </CardContent>
           </Card>
         </div>
+        <LetterList />
       </main>
     </div>
   );
