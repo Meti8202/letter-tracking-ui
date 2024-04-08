@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const RecipientContactAddress = () => {
+const SenderContactAddress = () => {
   const [name, setName] = useState("");
   const [department, setDepartment] = useState("");
   // Add more states for other parts of the recipient's contact information
@@ -53,4 +53,4 @@ const RecipientContactAddress = () => {
   );
 };
 
-export default RecipientContactAddress;
+export default SenderContactAddress;
