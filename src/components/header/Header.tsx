@@ -11,28 +11,13 @@ import {
 import {
   Menu,
   Link,
-  Package2,
   Home,
-  ShoppingCart,
-  Badge,
-  Package,
-  Users,
-  LineChart,
-  Search,
   CircleUser,
   Mailbox,
   PencilLine,
   TableProperties,
 } from "lucide-react";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 
@@ -67,7 +52,7 @@ export default function Header() {
                 className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
               >
                 <Home className="h-5 w-5" />
-                Dashboard
+                Home
               </Link>
               <Link
                 href="./compose"
