@@ -22,11 +22,11 @@ export default function GenerateLetter() {
 
   return (
     <>
-      <div>
-        <h2 className="text-2xl font-semibold mb-5 mt-11 ml-8 mr-6">
+      <div className="flex flex-col">
+        <h2 className="text-2xl font-semibold mb-8 mt-11 self-center">
           Compose Letter
         </h2>
-        <div className="grid gap-1 m-11">
+        <div className="grid gap-6 m-11">
           <DateComponent />
           <RecipientContactAddress />
           <SubjectLine />
@@ -38,7 +38,7 @@ export default function GenerateLetter() {
         </div>
         <button
           onClick={handleGenerate}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 ml-8"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-6 ml-60 w-[20%]"
         >
           Generate Letter
         </button>
