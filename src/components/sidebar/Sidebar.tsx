@@ -1,20 +1,8 @@
 "use client";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import {
-  Package2,
-  ShoppingCart,
-  Package,
-  Bell,
-  Home,
-  TableProperties,
-  PencilLine,
-  Mail,
-  Mailbox,
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Home, TableProperties, PencilLine, Mailbox } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
-import localFont from "next/font/local";
 
 export default function Sidebar() {
   const currentPath = usePathname();
@@ -38,7 +26,7 @@ export default function Sidebar() {
                 }`}
               >
                 <Home className="my-2 h-4 w-4" />
-                Dashboard
+                Home
               </Link>
               <Separator className="my-2" />
               <span className="m-2 text-gray-400">Activities</span>
